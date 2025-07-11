@@ -1,0 +1,44 @@
+# Docker
+.dockerignore
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# iReport/JasperReports
+*.jasper
+*.class
+*.log
+*.tmp
+
+# Reports directory - keep structure but ignore compiled reports
+reports/*.jasper
+reports/**/*.jasper
+reports/*.class
+reports/**/*.class
+reports/temp/
+reports/**/.temp/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.bak
+*.backup
+*.orig
+*.rej
+
+# System files
+*.pid
+*.seed
+*.log
+core
